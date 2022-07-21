@@ -55,3 +55,10 @@
 -	sudo groupadd docker
 -	sudo usermod -aG docker nome_do_usuário
 -	newgrp docke
+
+# Instalar imagem ELK e subi-la para que toda vez que o sistema for iniciado, a imagem inicie junto:
+-	docker pull sebp/elk
+-	docker images
+- Verificar o ID da imagem
+-	docker run -d --restart unless-stopped -p 5601:5601 -p 9200:9200 -p 5044:5044 -it id_imagem
+-	docker ps

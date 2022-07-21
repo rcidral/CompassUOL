@@ -23,3 +23,11 @@
 -	Configurando o redirecionamento de portas:
 
 ![image](https://user-images.githubusercontent.com/108689845/179813903-be572f3f-b1b6-4644-9db4-ad5a13a744ae.png)
+
+Ajustar DNS:
+-	Editar o arquivo hosts do Windows e do Linux, adicionando a linha: 127.0.0.1 elklabmonitoriacontainer
+
+Ajustar rede:
+-	Modo NAT nas configurações de rede da VM:
+
+![image](https://user-images.githubusercontent.com/108689845/179814040-e833b703-e7dc-4aaa-9a9f-633fb6abf325.png)

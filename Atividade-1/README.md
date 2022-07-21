@@ -24,10 +24,10 @@
 
 ![image](https://user-images.githubusercontent.com/108689845/179813903-be572f3f-b1b6-4644-9db4-ad5a13a744ae.png)
 
-Ajustar DNS:
+# Ajustar DNS:
 -	Editar o arquivo hosts do Windows e do Linux, adicionando a linha: 127.0.0.1 elklabmonitoriacontainer
 
-Ajustar rede:
+# Ajustar rede:
 -	Modo NAT nas configurações de rede da VM:
 
 ![image](https://user-images.githubusercontent.com/108689845/179814040-e833b703-e7dc-4aaa-9a9f-633fb6abf325.png)
@@ -39,3 +39,19 @@ Ajustar rede:
 -	Visualizando o arquivo de configuração de rede para a verificação se está tudo correto:
 
 ![image](https://user-images.githubusercontent.com/108689845/179814226-4d91e1b3-4826-4b6b-ab31-a03c0142ddfe.png)
+
+# Baixando Docker:
+-	sudo dnf update
+-	sudo dnf install yum-utils -y
+-	sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+-	sudo dnf update
+-	sudo dnf install docker-ce docker-ce-cli containerd.io
+-	sudo systemctl start docker
+-	sudo systemctl enable docker
+-	shutdown -r now
+-	systemctl status docker
+
+# Adicionando o usuário ao grupo para não precisar usar o Docker como root:
+-	sudo groupadd docker
+-	sudo usermod -aG docker nome_do_usuário
+-	newgrp docke

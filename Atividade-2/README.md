@@ -17,3 +17,12 @@
 - Windows ( caminho: C:\Windows\System32\drivers\etc ): 
 
 ![image](https://user-images.githubusercontent.com/108689845/180274531-17147517-f9b8-45d1-b7b9-a60a99e45204.png)
+
+#Ajustar rede:
+- Comando: nmtui
+
+![image](https://user-images.githubusercontent.com/108689845/179824759-bddf00cd-9c4b-48a7-b9ca-81c462f6f0ca.png)
+
+- Mudar a rede de modo NAT para BRIDGE no VMBox:
+
+![image](https://user-images.githubusercontent.com/108689845/180000178-457ad7bd-df74-424d-ab98-f1563503f5e3.png)

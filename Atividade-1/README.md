@@ -31,3 +31,11 @@ Ajustar rede:
 -	Modo NAT nas configurações de rede da VM:
 
 ![image](https://user-images.githubusercontent.com/108689845/179814040-e833b703-e7dc-4aaa-9a9f-633fb6abf325.png)
+
+- Configurando a rede da maquina virtual para um cidr/24, sob protocolo IPv4 (ignorando o IPv6), utilizando um range classe A e configurando IP fixo:
+
+![image](https://user-images.githubusercontent.com/108689845/179814138-d8f1e1a6-366f-4579-84e5-6712a6bde095.png)
+
+-	Visualizando o arquivo de configuração de rede para a verificação se está tudo correto:
+
+![image](https://user-images.githubusercontent.com/108689845/179814226-4d91e1b3-4826-4b6b-ab31-a03c0142ddfe.png)

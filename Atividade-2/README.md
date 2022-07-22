@@ -62,3 +62,14 @@ Criação das chaves:
 - adicionar o IP da VM2 no arquivo hosts da VM1, para que haja conexão ssh via DNS na questão de relaçao de confiança:
 
 ![image](https://user-images.githubusercontent.com/108689845/180336198-0a3a8597-34bd-4be6-9860-945dfe49adff.png)
+
+# VM2:
+
+-Adicionando o IP da VM1 no arquivo hosts da VM2, para que haja conexão via DNS na questão de relação de confiança e importação de chave: 
+
+![image](https://user-images.githubusercontent.com/108689845/180336469-79c06949-c22f-4be4-825b-7eb55b7ec81d.png)
+
+- importar a chave pública da VM1 para VM2, criando o arquivo authorized_keys para validação da chave com o comando: ssh rcidral@elklabmonitoriacontainer cat /home/rcidral/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys 
+- configurar as permissões do arquivo authentication_keys, para que seja gravável apenas pelo usuário rcidral2, porém execultável por todos, com o comando: chmod  755 ~/.shh/authorized_keys
+
+![image](https://user-images.githubusercontent.com/108689845/180337777-616fcca3-816d-48f2-81b7-22f62d332d6d.png)

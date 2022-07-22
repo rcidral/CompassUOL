@@ -8,7 +8,7 @@
 # Ajustando máquina virtual principal (VM1) para conexão via SSH e ajustes de rede:
 
 # Ajustar DNS:
--	Editar o arquivo hosts do Linux e do Windows, adicionando a linha: 192.168.0.2 elklabmonitoriacontainer
+-	Editar o arquivo hosts do Linux e do Windows, adicionando a linha: 192.168.0.8 elklabmonitoriacontainer
 
 - Linux ( caminho: /etc/hosts ):
 
@@ -26,3 +26,25 @@
 - Mudar a rede de modo NAT para BRIDGE no VMBox:
 
 ![image](https://user-images.githubusercontent.com/108689845/180335318-8d3997d3-33aa-4106-a2e2-888b36eb9d38.png)
+
+# Ajustando máquina virtual secundária (VM2) para conexão via SSH e ajustes de rede:
+
+# Ajustar DNS:
+-	Editar o arquivo hosts do Linux e do Windows, adicionando a linha: 192.168.0.9 elklabsec
+
+- Linux ( caminho: /etc/hosts ):
+
+![image](https://user-images.githubusercontent.com/108689845/180335481-37583712-d0e9-4807-8c23-d2cedde44269.png)
+
+- Windows ( caminho: C:\Windows\System32\drivers\etc ): 
+
+![image](https://user-images.githubusercontent.com/108689845/180335520-2adffe88-961d-4f41-b6fe-0f93876f5d3d.png)
+
+#Ajustar rede:
+- Comando: nmtui
+
+![image](https://user-images.githubusercontent.com/108689845/180335552-aa68f40e-ae85-464f-afa8-2fd59738d7b1.png)
+
+- Mudar a rede de modo NAT para BRIDGE no VMBox:
+
+![image](https://user-images.githubusercontent.com/108689845/180335607-71f7ee95-1e1a-432c-804d-da4a287e92d3.png)

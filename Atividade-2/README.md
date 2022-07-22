@@ -1,9 +1,22 @@
 # Atividade 2
 
-# Criação de um clone da máquina virtual original através do VMBox, para ser utilizado como segunda VM:
-- Utilizando a opção CLONAR do VMBox, clonando o Estado Atual da máquina.
+# Instalação da máquina virtual secundária utilizando o VMBox, com um sistema Oracle Linux 8.6.
 
-![image](https://user-images.githubusercontent.com/108689845/180272800-182a3758-4d12-4259-99ee-10ee0ace67e0.png)
+# Configuração da máquina:
+-	RAM: 4096mb
+-	DISCO: 40gb
+-	Hostname: elklabsec
+
+# Configuração de disco:
+-	Swap - 4gb --> swap
+-	/boot/efi - 512mb --> EFI system
+-	/boot - 1024mb --> xfs
+-	/var - 6gb --> xfs
+-	/tmp 2gb --> xfs
+-	/home - 1.5gb --> xfs
+-	/ - 15gb --> xfs
+
+![image](https://user-images.githubusercontent.com/108689845/180467911-89067c7d-69ed-4ca0-886e-8f341941a946.png)
 
 # Ajustando máquina virtual principal (VM1) para conexão via SSH e ajustes de rede:
 

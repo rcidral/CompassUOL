@@ -4,3 +4,5 @@ Este é um repositório para o arquivamento de trabalhos sequências de Ricardo 
 No mesmo, utilizaremos de Virtual Machines, imagens docker e etc.
 
 Programas utilizados:
+
+VMBox: https://www.virtualbox.org/wiki/Downloads

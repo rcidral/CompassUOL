@@ -48,3 +48,17 @@
 - Mudar a rede de modo NAT para BRIDGE no VMBox:
 
 ![image](https://user-images.githubusercontent.com/108689845/180335607-71f7ee95-1e1a-432c-804d-da4a287e92d3.png)
+
+# Criar relação de confiança entre as duas VMs:
+
+# VM1: 
+
+Criação das chaves:
+- ssh-keygen 
+- chaves armazenadas em /home/rcidral/.ssh/
+
+![image](https://user-images.githubusercontent.com/108689845/180104196-e4391865-15a5-4ff8-9cce-239d2a42d1e4.png)
+
+- adicionar o IP da VM2 no arquivo hosts da VM1, para que haja conexão ssh via DNS na questão de relaçao de confiança:
+
+![image](https://user-images.githubusercontent.com/108689845/180336198-0a3a8597-34bd-4be6-9860-945dfe49adff.png)

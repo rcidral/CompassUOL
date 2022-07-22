@@ -12,17 +12,17 @@
 
 - Linux ( caminho: /etc/hosts ):
 
-![image](https://user-images.githubusercontent.com/108689845/180109544-7ed8cc0e-c3fe-445c-b783-b7958be18114.png)
+![image](https://user-images.githubusercontent.com/108689845/180335230-af577e3d-b6a5-4003-9d35-a99284e66972.png)
 
 - Windows ( caminho: C:\Windows\System32\drivers\etc ): 
 
-![image](https://user-images.githubusercontent.com/108689845/180274531-17147517-f9b8-45d1-b7b9-a60a99e45204.png)
+![image](https://user-images.githubusercontent.com/108689845/180335248-b18b591f-a5c9-4cf5-96dd-479b654af721.png)
 
 #Ajustar rede:
 - Comando: nmtui
 
-![image](https://user-images.githubusercontent.com/108689845/179824759-bddf00cd-9c4b-48a7-b9ca-81c462f6f0ca.png)
+![image](https://user-images.githubusercontent.com/108689845/180335266-da197ff6-6f78-4dfb-8743-243a7cffdccc.png)
 
 - Mudar a rede de modo NAT para BRIDGE no VMBox:
 
-![image](https://user-images.githubusercontent.com/108689845/180000178-457ad7bd-df74-424d-ab98-f1563503f5e3.png)
+![image](https://user-images.githubusercontent.com/108689845/180335318-8d3997d3-33aa-4106-a2e2-888b36eb9d38.png)

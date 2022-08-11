@@ -201,6 +201,13 @@ kubectl apply -f ./ --namespace=labwordpress
 
 
 
+## Realizando a verificação da criação dos arquivos:
+Realizando a verificação com o comando:
+```bash
+kubectl get all --namespace=labwordpress
+```
+
+
 ## Verificando a URL:
 Verificando a URL com o comando:
 ```bash

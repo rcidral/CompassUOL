@@ -1,14 +1,11 @@
 <h1 align="center"> Atividade Kubernetes </h1>
 
 
-
+## Atividade realizada no Windows e com o Docker for Windows.
 ## Criando um namespace chamado labwordpress no Kubernetes:
-Criando um arquivo chamado labwordpress.yaml com o script para criar um namespace:
+Criando um novo namespace com o comando:
 ```bash
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: labwordpress
+kubectl create namespace labwordpress
 ```
 
 
@@ -200,4 +197,12 @@ spec:
 Realizando o apply com o comando:
 ```bash
 kubectl apply -f ./ --namespace=labwordpress
+```
+
+
+
+## Verificando a URL:
+Verificando a URL com o comando:
+```bash
+kubectl -n ingress get svc wordpress --namespace=labwordpress
 ```
